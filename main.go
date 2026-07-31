@@ -20,7 +20,7 @@ const (
 	pollTimeout = 25 * time.Second
 	dialTimeout = 10 * time.Second
 	downBuf     = 256
-	readBuf     = 32 * 1024
+	readBuf     = 256 * 1024
 	wsMagic     = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"
 )
 
